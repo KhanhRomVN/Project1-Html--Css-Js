@@ -1,0 +1,30 @@
+/* Reset CSS */
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+	font-family: "Sen", sans-serif;
+	background-color: #111111;
+}
+
+a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+:root {
+	/* -=-=-=-=-=- Light -=-=-=-=-=-=-=-*/
+
+    /* -=-=-=-=-=- Dark -=-=-=-=-=-=-=-*/
+    /* Primary Text */
+	--primary-color_dark: #00B9E8; 
+	--primary-text-dark: #ffffff;
+	--primary-text-hover: #00B9E8;
+	/* Background Color */
+	--background-color1-dark: #151515;
+	--background-color2-dark: #111111;
+}

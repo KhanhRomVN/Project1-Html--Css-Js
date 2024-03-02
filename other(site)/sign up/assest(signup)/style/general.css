@@ -1,0 +1,56 @@
+/* Reset CSS */
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+	font-family: "Sen", sans-serif;
+	display: flex;
+	height: 100vh;
+	
+}
+
+a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+:root {
+    --font: "Sen", sans-serif;
+	/* -=-=-=-=-=- Light -=-=-=-=-=-=-=-*/
+	/* Primary Text */
+	--primary-color_light: #4F98CA; 
+	/* Background Color */
+	--background-color1-light: rgb(255, 255, 255);
+	--background-color2-light: rgba(0, 0, 0, 0.1);
+	/* Box Shadow */
+	--box-shadow-default-light: 0.3125em 0.3125em 0.625em #272727;
+	--box-shadow-hover-light: 0.3125em 0.3125em 15em #4F98CA;;
+	/* Text */
+    --text-color-light: rgb(0, 0, 0);
+    --text-color-hover-light: #4F98CA;
+    /* Border */
+    --border-box-light: rgb(0, 0, 0) 0.3125em solid;
+    --border-button-light: rgb(0, 0, 0) 0.1em solid;
+
+    /* -=-=-=-=-=- Dark -=-=-=-=-=-=-=-*/
+    /* Primary Text */
+	--primary-color_dark: #4dc000; 
+	--primary-text-dark: #ffffff;
+	--primary-text-hover: #4dc000;
+	/* Background Color */
+	--background-color1-dark: #000000;
+	--background-color2-dark: #151515;
+	/* Box Shadow */
+	--box-shadow-defaut-dark: 0.3125em 0.3125em 0.625em #F6F6F6;
+	--box-shadow-hover-dark: 0 0 30px 0 #4dc000;
+	/* Text */
+    --text-color-dark: rgb(255, 255, 255);
+    --text-color-hover-dark: #4dc000;
+    /* Border */
+    --border-box-dark: #ffffff 0.3125em solid;
+    --border-button-dark: #ffffff 0.1em solid;
+}

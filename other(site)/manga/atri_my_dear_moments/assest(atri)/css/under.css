@@ -1,0 +1,271 @@
+.under {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* nav */
+.nav {
+    width: 100%;
+    background-color: #1B1B1B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 20px 8px 20px;
+}
+.nav_left_logo {
+    font-size: 34px;
+    color: #00B9E8;
+    font-weight: 600;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+}
+
+.nav_right_item {
+    font-size: 35px;
+}
+
+.nav_right_item:hover {
+    color: #00B9E8;
+}
+
+.nav_right_login {
+    font-size: 25px;
+}
+
+.bx-menu {
+    margin-left: 20px;
+}
+
+/* main */
+.main {
+    width: 75%;
+}
+
+/* title */
+.title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_title {
+    font-size: 30px;
+    color: white;
+}
+
+.title_btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #00B9E8;
+    color: white;
+    border-radius: 10px;
+}
+
+.title_btn:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* */
+.option {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.option_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.option_container::before,
+.option_container::after {
+    content: "";
+    display: table;
+}
+
+.option_container::after {
+    clear: both;
+}
+
+.tab-switch {
+    display: none;
+}
+
+.tab-label {
+    color: #DBD7D2;
+    cursor: pointer;
+}
+
+.tab-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    color: #ffffff;
+    opacity: 0;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+
+.tab-switch:checked + .tab-label {
+    background: #00B9E8;
+    color: #ffffff;
+    transition: all 0.35s;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+.tab-switch:checked + label + .tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+}
+
+/* chapter */
+.chapter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chapter_item {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 2px #fff solid;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.chapter_item_left {
+    width: 15%;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.chapter_item_left_img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.chapter_item_right {
+    width: 85%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.option_intro:active .chapter {
+    display: none;
+}
+
+/* introduce */
+
+.introduce {
+    width: 100%;
+    display: flex;
+}
+
+.introduce_img {
+    width: 40%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.introduce_img_item {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.introduce_info {
+    width: 60%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.introduce_info_title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.introduce_info_category {
+    display: flex;
+    gap: 20px;
+}
+
+.introduce_info_category_item {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #00B9E8;
+}
+
+/* more */
+.more {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.more_item {
+    display: flex;
+    border-bottom: #fff 2px solid;
+}
+
+.more_left {
+    width: 16%;
+    overflow: hidden;
+}
+
+.more_left_img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.more_right {
+    width: 84%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.more_right_title {
+    font-size: 34px;
+}
+
+.more_right_desc {
+    font-size: 16px;
+}

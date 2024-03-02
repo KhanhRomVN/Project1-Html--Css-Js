@@ -1,0 +1,114 @@
+.right {
+    width: 60%;
+    font-size: 20px;
+    background-color: #F7F7F7;
+}
+
+.right_nav {
+    width: 100%;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.nav_logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1B1B1B;
+}
+
+.nav_right {
+    display: flex;
+    gap: 15px;
+    align-items: center;  
+}
+
+.nav_right_question {
+  color: #1B1B1B;
+}
+
+.nav_right_signup {
+    border: 2px white solid;
+    border: 2px black solid;
+    padding: 0 5px;
+    color: #1B1B1B;
+}
+
+/* main_right */
+.right_main {
+    height: 80%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.main_container {
+    padding: 20px;
+}
+  
+.main_title {
+    text-align: center; 
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+  
+.main_slogan {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+  
+  .main_username_email, 
+  .main_password {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .main_forget {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .main_login_btn {
+    background-color: #1B1B1B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+  
+  .main_gg, 
+  .main_facebook {
+    border: 1px solid #1B1B1B;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    color: 1B1B1B;
+  }
+  
+  .main_gg {
+    margin-bottom: 10px;
+  } 
+
+.main_gg:hover {
+  background-color: #E44D2E;
+}
+
+.main_facebook:hover {
+  background-color: #318CE7;
+}
+  

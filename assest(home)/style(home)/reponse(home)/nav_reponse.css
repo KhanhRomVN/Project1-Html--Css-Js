@@ -1,0 +1,39 @@
+@media (min-width: 400px) {
+    .searchbar {
+        display: none;
+    }
+
+    .nav_left_logo {
+        font-size: 1.2rem;
+    }
+
+    .nav_right_item {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 550px) {
+    .searchbar {
+        display: none;
+    }
+
+    .nav_left_logo {
+        font-size: 1.5rem;
+    }
+
+    .nav_right_item {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 750px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
